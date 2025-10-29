@@ -49,6 +49,7 @@ ol {
 button {
   font-family: inherit;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-title {
   font-weight: 700;
@@ -214,6 +215,7 @@ button {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* end hero section */
 
@@ -261,13 +263,14 @@ button {
 }
 .team-item-text > .text {
   text-align: center;
+  margin-bottom: 8px;
 }
 .socials-list {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-.social-item {
+.socials-item {
   width: 40px;
   height: 40px;
 }
